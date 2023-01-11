@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-    @apply bg-zinc-100 min-h-screen flex flex-col items-center;
+    @apply min-h-screen flex flex-col items-center;
 }
