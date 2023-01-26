@@ -28,7 +28,7 @@ const handler = async (req, res) => {
    if (req.method === 'POST') {
     const data = req.body;
     if (!data.email || !data.message) {
-        return res.status(400).json({ message: 'Bad requesttt' })
+        return res.status(400).json({ message: 'Bad request!' })
     }
 
     try {
@@ -44,7 +44,7 @@ const handler = async (req, res) => {
         return res.status(400).json({ message: err.message });
       }
     }
-    return res.status(400).json({ message: "Bad request" });
+    return res.status(400).json({ message: "Bad request!" });
 }
 
 export default handler
