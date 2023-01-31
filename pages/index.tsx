@@ -86,7 +86,7 @@ export default function Home() {
                             href="/projects/singers"
                             className="absolute top-[59%] right-[9%] w-[34%] h-[18%] transform rotate-2"
                         >
-                            <span className="sr-only">Singers Project</span>
+                            <span className="sr-only">$ingers Project</span>
                         </Link>
                     </div>
                 </div>
