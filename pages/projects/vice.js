@@ -24,7 +24,7 @@ export default function Home() {
             <h1 className="sr-only">Singers Project</h1>
             <div className="flex flex-col justify-center min-h-screen">
                 <div className="grid grid-cols-12 py-[5vw]">
-                    <div className="col-start-1 lg:col-start-2 col-span-12 lg:col-span-10 relative">
+                    <div className="col-start-1 lg:col-start-2 col-span-12 lg:col-span-10 relative px-[6.5%] pt-[3.5%]">
                         <Image
                             src={projectImage}
                             alt=""

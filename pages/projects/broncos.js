@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Navigation from '../../components/navigation'
 import projectImage from '../../public/96_web.jpg'
 import Contact from '../../components/contact'
 
@@ -24,7 +25,7 @@ export default function Home() {
             <h1 className="sr-only">96 Broncos Project</h1>
             <div className="flex flex-col justify-center min-h-screen">
                 <div className="grid grid-cols-12 py-[5vw]">
-                    <div className="col-start-1 lg:col-start-2 col-span-12 lg:col-span-10 relative">
+                    <div className="col-start-1 lg:col-start-2 col-span-12 lg:col-span-10 relative px-[6.5%] pt-[3.5%]">
                         <Image
                             src={projectImage}
                             alt=""

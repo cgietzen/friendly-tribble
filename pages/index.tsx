@@ -34,6 +34,12 @@ export default function Home() {
                             placeholder="blur"
                         />
 
+                        <Link
+                            href="https://www.instagram.com/anton___/"
+                            className="absolute top-[12%] right-[33%] w-[2%] h-[1.5%]"
+                        >
+                            <span className="sr-only">Instagram</span>
+                        </Link>
                         <button
                             onClick={handleToggle}
                             className="absolute top-[18%] right-[7%] w-1/4 h-[5%]"
@@ -41,34 +47,10 @@ export default function Home() {
                             <span className="sr-only">Contact Me</span>
                         </button>
                         <Link
-                            href="https://www.instagram.com/anton___/"
-                            className="absolute top-[12%] right-[33%] w-[2%] h-[1.5%]"
-                        >
-                            <span className="sr-only">Instagram</span>
-                        </Link>
-                        <Link
-                            href="https://www.instagram.com/anton___/"
-                            className="absolute top-[25%] right-[33%] w-[2%] h-[1.5%]"
-                        >
-                            <span className="sr-only">Instagram</span>
-                        </Link>
-                        <Link
                             href="/projects/levis"
                             className="absolute top-[33%] left-[11%] w-[44%] h-[11%]"
                         >
                             <span className="sr-only">Levis Project</span>
-                        </Link>
-                        <Link
-                            href="/projects/vogue"
-                            className="absolute top-[45%] left-[11%] w-[44%] h-[12%]"
-                        >
-                            <span className="sr-only">Vogue Project</span>
-                        </Link>
-                        <Link
-                            href="/projects/elios"
-                            className="absolute top-[36%] right-[10%] w-[34%] h-[9%]"
-                        >
-                            <span className="sr-only">Elios Project</span>
                         </Link>
                         <Link
                             href="/projects/broncos"
@@ -77,16 +59,41 @@ export default function Home() {
                             <span className="sr-only">96 Broncos Project</span>
                         </Link>
                         <Link
+                            href="/projects/elios"
+                            className="absolute top-[36%] right-[10%] w-[34%] h-[9%]"
+                        >
+                            <span className="sr-only">Elios Project</span>
+                        </Link>
+                        <Link
+                            href="/projects/vogue"
+                            className="absolute top-[45%] left-[11%] w-[44%] h-[12%]"
+                        >
+                            <span className="sr-only">Vogue Project</span>
+                        </Link>
+
+                        <Link
                             href="/projects/vice"
                             className="absolute top-[46%] right-[10%] w-[34%] h-[11%]"
                         >
                             <span className="sr-only">Vice Project</span>
                         </Link>
                         <Link
+                            href="/projects/studiobox"
+                            className="absolute top-[58%] left-[11%] w-[45%] h-[10%]"
+                        >
+                            <span className="sr-only">Studiobox</span>
+                        </Link>
+                        <Link
                             href="/projects/singers"
                             className="absolute top-[59%] right-[9%] w-[34%] h-[18%] transform rotate-2"
                         >
                             <span className="sr-only">$ingers Project</span>
+                        </Link>
+                        <Link
+                            href="/projects/very-warm"
+                            className="absolute top-[70%] left-[33%] w-[23%] h-[13%]"
+                        >
+                            <span className="sr-only">Very Warm Project</span>
                         </Link>
                     </div>
                 </div>
