@@ -4,6 +4,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import indexImage from '../public/index-image.png'
+import siteLogo from '../public/home_new.jpg'
+import siteContact from '../public/contact_scanned.png'
 import Contact from '../components/contact'
 
 export default function Home() {
