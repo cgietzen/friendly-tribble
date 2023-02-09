@@ -97,6 +97,13 @@ export default function Home() {
                         >
                             <span className="sr-only">Very Warm Project</span>
                         </Link>
+                        <a
+                            target="_blank"
+                            href="https://docs.google.com/presentation/d/170Oj-NiL_SJRzhUKCCgA8AgksBuSXJn03daAkG8Ctrk/edit#slide=id.p"
+                            className="absolute top-[84%] left-[34%] w-[21%] h-[9%]"
+                        >
+                            <span className="sr-only">Seed Deck</span>
+                        </a>
                     </div>
                 </div>
             </div>
