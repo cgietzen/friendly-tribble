@@ -3,7 +3,8 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import projectImage from '../../public/very_warm_web_2.jpg'
+import Navigation from '../../components/navigation'
+import projectImage from '../../public/verywarm_web.png'
 import Contact from '../../components/contact'
 
 export default function Home() {

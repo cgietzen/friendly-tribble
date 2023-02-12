@@ -6,25 +6,30 @@ import { Link } from '@chakra-ui/react'
 
 export default function Navigation() {
     return (
-        <div className="grid grid-cols-12 py-4 w-full fixed top-0">
-            <div className="lg:col-start-1 lg:col-span-1 p-[3.5%] grid grid-cols-1 gap-y-4 px-4">
-                <Link href="/" className="">
-                    <Image
-                        src={siteLogo}
-                        alt=""
-                        blurDataURL="data:..."
-                        placeholder="blur"
-                    />
-                </Link>
-                <Link href="/" className="">
-                    <Image
-                        src={siteContact}
-                        alt=""
-                        blurDataURL="data:..."
-                        placeholder="blur"
-                    />
-                </Link>
-            </div>
-        </div>
+        <nav class="p-4 items-center fixed w-full top-0 flex justify-between gap-y-4">
+            <Link as={NextLink} href="/">
+                <Image
+                    class="w-20 h-auto"
+                    src={siteLogo}
+                    alt=""
+                    // width={500} automatically provided
+                    // height={500} automatically provided
+                    blurDataURL="data:..."
+                    placeholder="blur"
+                />
+            </Link>
+
+            <Link as={NextLink} href="/">
+                <Image
+                    class="w-20 h-auto"
+                    src={contactLogo}
+                    alt=""
+                    // width={500} automatically provided
+                    // height={500} automatically provided
+                    blurDataURL="data:..."
+                    placeholder="blur"
+                />
+            </Link>
+        </nav>
     )
 }
