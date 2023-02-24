@@ -42,12 +42,48 @@ export default function Home() {
                         >
                             <span className="sr-only">Contact Me</span>
                         </button>
-                        <Link
-                            href="https://www.instagram.com/anton___/"
-                            className="absolute top-[12%] right-[33%] w-[2%] h-[1.5%]"
+                        <a
+                            href="https://www.instagram.com/p/CYSS2gAsMfi/"
+                            target="_blank"
+                            className="absolute top-[6.5%] left-[11%] w-[20%] h-[20%]"
                         >
-                            <span className="sr-only">Instagram</span>
-                        </Link>
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/CoaHCp7JKQ_/"
+                            target="_blank"
+                            className="absolute top-[6.5%] right-[25%] w-[10.5%] h-[23%]"
+                        >
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/CIWqAkQlNCG/"
+                            target="_blank"
+                            className="absolute top-[21.5%] right-[10%] w-[10.5%] h-[21%]"
+                        >
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/CR2OKa7lOq2/"
+                            target="_blank"
+                            className="absolute top-[37.5%] right-[38%] w-[21.5%] h-[17%]"
+                        >
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/CWEsfqRFYj5/"
+                            target="_blank"
+                            className="absolute top-[58.5%] left-[15%] w-[43.5%] h-[24%]"
+                        >
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/CIZUHnvljcx/"
+                            target="_blank"
+                            className="absolute top-[43.5%] right-[8%] w-[29.5%] h-[42%]"
+                        >
+                            <span className="sr-only">View on instagram</span>
+                        </a>
                     </div>
                 </div>
             </div>
