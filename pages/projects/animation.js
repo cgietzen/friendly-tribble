@@ -44,7 +44,11 @@ export default function Home() {
                         />
                         <div className="absolute top-[22%] left-[17%] right-[17%] bottom-[15%] bg-red-50">
                             <div className="animation-grid gap-1 h-[60%]">
-                                <div className="joya">
+                                <a
+                                    href="https://www.instagram.com/p/ClR_giIp3Rb/"
+                                    target="_blank"
+                                    className="joya"
+                                >
                                     <Image
                                         className=""
                                         src={joya}
@@ -54,8 +58,12 @@ export default function Home() {
                                         blurDataURL="data:..."
                                         placeholder="blur"
                                     />
-                                </div>
-                                <div className="cc">
+                                </a>
+                                <a
+                                    href="https://www.instagram.com/p/CUD26cIFDb5/"
+                                    target="_blank"
+                                    className="cc"
+                                >
                                     <Image
                                         className=""
                                         src={cc}
@@ -65,8 +73,8 @@ export default function Home() {
                                         blurDataURL="data:..."
                                         placeholder="blur"
                                     />
-                                </div>
-                                <div className="levis">
+                                </a>
+                                <div target="_blank" className="levis">
                                     <Image
                                         className=""
                                         src={levis}
@@ -77,7 +85,11 @@ export default function Home() {
                                         placeholder="blur"
                                     />
                                 </div>
-                                <div className="uke">
+                                <a
+                                    href="https://www.instagram.com/p/CcmNOjrMnoP/"
+                                    target="_blank"
+                                    className="uke"
+                                >
                                     <Image
                                         className=""
                                         src={uke}
@@ -87,8 +99,12 @@ export default function Home() {
                                         blurDataURL="data:..."
                                         placeholder="blur"
                                     />
-                                </div>
-                                <div className="broncos-hat">
+                                </a>
+                                <a
+                                    href="https://www.instagram.com/p/CYSS2gAsMfi/"
+                                    target="_blank"
+                                    className="broncos-hat"
+                                >
                                     <Image
                                         className=""
                                         src={broncosHat}
@@ -98,10 +114,14 @@ export default function Home() {
                                         blurDataURL="data:..."
                                         placeholder="blur"
                                     />
-                                </div>
+                                </a>
                             </div>
                             <div className="grid grid-cols-2 h-[40%] gap-x-1 mt-1">
-                                <div className="relative">
+                                <a
+                                    href="https://www.instagram.com/p/CVd8ap6MN3H/"
+                                    target="_blank"
+                                    className="relative"
+                                >
                                     <Image
                                         className="absolute inset-0 object-cover w-full h-full"
                                         src={frog}
@@ -111,9 +131,13 @@ export default function Home() {
                                         blurDataURL="data:..."
                                         placeholder="blur"
                                     />
-                                </div>
+                                </a>
 
-                                <div className="relative">
+                                <a
+                                    href="https://www.instagram.com/p/CffN4daJTtv/"
+                                    target="_blank"
+                                    className="relative"
+                                >
                                     <Image
                                         className="absolute inset-0 object-cover w-full h-full"
                                         src={singersFan}
@@ -123,7 +147,7 @@ export default function Home() {
                                         blurDataURL="data:..."
                                         placeholder="blur"
                                     />
-                                </div>
+                                </a>
                             </div>
                         </div>
 

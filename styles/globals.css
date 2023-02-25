@@ -12,11 +12,11 @@ body {
     grid-template-rows: repeat(5, 1fr);
 }
 
-.animation-grid > div {
+.animation-grid > div, .animation-grid > a {
     position: relative;
 }
 
-.animation-grid > div > img {
+.animation-grid > div > img, .animation-grid > a > img  {
     @apply absolute inset-0 w-full h-full object-cover;
 }
 
