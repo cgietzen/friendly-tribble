@@ -42,12 +42,20 @@ export default function Home() {
                         >
                             <span className="sr-only">Contact Me</span>
                         </button>
-                        <Link
-                            href="https://www.instagram.com/anton___/"
-                            className="absolute top-[12%] right-[33%] w-[2%] h-[1.5%]"
+                        <a
+                            href="https://www.instagram.com/p/Ck_-WtMpZ73/"
+                            target="_blank"
+                            className="absolute top-[63%] left-[19.5%] w-[18.5%] h-[18.5%]"
                         >
-                            <span className="sr-only">Instagram</span>
-                        </Link>
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/Cm-COGBOv-f/"
+                            target="_blank"
+                            className="absolute top-[63%] right-[19.5%] w-[18.5%] h-[18.5%]"
+                        >
+                            <span className="sr-only">View on instagram</span>
+                        </a>
                     </div>
                 </div>
             </div>

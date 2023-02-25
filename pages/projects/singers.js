@@ -41,12 +41,13 @@ export default function Home() {
                         >
                             <span className="sr-only">Contact Me</span>
                         </button>
-                        <Link
-                            href="https://www.instagram.com/anton___/"
-                            className="absolute top-[12%] right-[33%] w-[2%] h-[1.5%]"
+                        <a
+                            href="https://www.instagram.com/p/CffN4daJTtv/"
+                            target="_blank"
+                            className="absolute top-[55.5%] left-[12%] w-[26.5%] h-[20%]"
                         >
-                            <span className="sr-only">Instagram</span>
-                        </Link>
+                            <span className="sr-only">View on instagram</span>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -35,19 +35,48 @@ export default function Home() {
                             placeholder="blur"
                         />
 
-                        <button
-                            onClick={toggleMenu}
-                            isContactOpen={false}
-                            className="absolute top-[18%] right-[7%] w-1/4 h-[5%]"
+                        <a
+                            href="https://www.instagram.com/p/Cc1Lnw-pphH/"
+                            target="_blank"
+                            className="absolute top-[37%] left-[4%] w-[35%] h-[27%] transform rotate-[-14deg] z-[4]"
                         >
-                            <span className="sr-only">Contact Me</span>
-                        </button>
-                        <Link
-                            href="https://www.instagram.com/anton___/"
-                            className="absolute top-[12%] right-[33%] w-[2%] h-[1.5%]"
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/CiQyEa0JaBX/"
+                            target="_blank"
+                            className="absolute top-[32%] left-[42%] w-[35%] h-[27%] transform rotate-[-13deg] z-[2]"
                         >
-                            <span className="sr-only">Instagram</span>
-                        </Link>
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/CffN4daJTtv/"
+                            target="_blank"
+                            className="absolute top-[13%] right-[5%] w-[29%] h-[28%] transform rotate-[-13deg] z-[1]"
+                        >
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/CEIP2z8FfYD/"
+                            target="_blank"
+                            className="absolute top-[58%] left-[24%] w-[35%] h-[27%] transform rotate-[-14deg] z-[3]"
+                        >
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/CEIP2z8FfYD/"
+                            target="_blank"
+                            className="absolute top-[42%] right-[0%] w-[30%] h-[42%] transform rotate-[-14deg] z-[1]"
+                        >
+                            <span className="sr-only">View on instagram</span>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/p/Cc1Lnw-pphH/"
+                            target="_blank"
+                            className="absolute top-[75%] right-[13%] w-[35%] h-[27%] transform rotate-[-14deg] z-[2]"
+                        >
+                            <span className="sr-only">View on instagram</span>
+                        </a>
                     </div>
                 </div>
             </div>
