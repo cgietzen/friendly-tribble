@@ -24,8 +24,8 @@ export default function Home() {
             </Head>
 
             <h1 className="sr-only">Allan Khorsheed</h1>
-            <div className="flex flex-col justify-center min-h-screen">
-                <div className="grid grid-cols-12 py-[5vw]">
+            <div className="flex flex-col justify-start lg:justify-center min-h-screen">
+                <div className="grid grid-cols-12 py-10">
                     <div className="col-start-1 lg:col-start-2 col-span-12 lg:col-span-10 relative">
                         <Image
                             src={indexImage}

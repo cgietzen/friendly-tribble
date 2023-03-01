@@ -25,7 +25,7 @@ export default function Home() {
             </Head>
 
             <h1 className="sr-only">96 Broncos Project</h1>
-            <div className="flex flex-col justify-center min-h-screen">
+            <div className="flex flex-col justify-start lg:justify-center min-h-screen">
                 <div className="grid grid-cols-12 py-5 lg:py-10 relative">
                     <Navigation toggle={handleToggle} />
                     <div className="col-start-1 lg:col-start-2 col-span-12 lg:col-span-10 relative px-[5%] pt-5 lg:pt-10">
