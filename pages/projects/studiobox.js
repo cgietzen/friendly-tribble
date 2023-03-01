@@ -4,12 +4,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import projectImage from '../../public/studiobox_web.jpg'
-import indexImage from '../../public/index-image.png'
 import Contact from '../../components/contact'
+import Navigation from '../../components/navigation'
 
 export default function Home() {
-    const [isContactOpen, setIsContactOpen] = useState(false)
-    const toggleMenu = () => setIsContactOpen(!isContactOpen)
+    const [toggle, setToggle] = useState(false)
+    const handleToggle = () => {
+        setToggle(!toggle)
+    }
 
     return (
         <div className="min-h-screen relative">
@@ -24,8 +26,9 @@ export default function Home() {
 
             <h1 className="sr-only">Studiobox Project</h1>
             <div className="flex flex-col justify-center min-h-screen">
-                <div className="grid grid-cols-12 py-[5vw]">
-                    <div className="col-start-1 lg:col-start-2 col-span-12 lg:col-span-10 relative px-[6.5%] pt-[3.5%]">
+                <div className="grid grid-cols-12 py-5 lg:py-10 relative">
+                    <Navigation toggle={handleToggle} />
+                    <div className="col-start-1 lg:col-start-2 col-span-12 lg:col-span-10 relative px-[5%] pt-5 lg:pt-10">
                         <Image
                             src={projectImage}
                             alt=""
@@ -34,24 +37,10 @@ export default function Home() {
                             blurDataURL="data:..."
                             placeholder="blur"
                         />
-
-                        <button
-                            onClick={toggleMenu}
-                            isContactOpen={false}
-                            className="absolute top-[18%] right-[7%] w-1/4 h-[5%]"
-                        >
-                            <span className="sr-only">Contact Me</span>
-                        </button>
-                        <Link
-                            href="https://www.instagram.com/anton___/"
-                            className="absolute top-[12%] right-[33%] w-[2%] h-[1.5%]"
-                        >
-                            <span className="sr-only">Instagram</span>
-                        </Link>
                     </div>
                 </div>
             </div>
-            {isContactOpen && <Contact isContactOpen={setIsContactOpen} />}
+            {toggle && <Contact toggle={handleToggle} />}
         </div>
     )
 }

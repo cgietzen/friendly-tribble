@@ -8,8 +8,10 @@ import projectImage from '../../public/illustration-web.jpg'
 import Contact from '../../components/contact'
 
 export default function Home() {
-    const [isContactOpen, setIsContactOpen] = useState(false)
-    const toggleMenu = () => setIsContactOpen(!isContactOpen)
+    const [toggle, setToggle] = useState(false)
+    const handleToggle = () => {
+        setToggle(!toggle)
+    }
 
     return (
         <div className="min-h-screen relative">
@@ -22,10 +24,11 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <h1 className="sr-only">96 Broncos Project</h1>
+            <h1 className="sr-only">Illustration Project</h1>
             <div className="flex flex-col justify-center min-h-screen">
-                <div className="grid grid-cols-12 py-[5vw]">
-                    <div className="col-start-1 lg:col-start-2 col-span-12 lg:col-span-10 relative px-[6.5%] pt-[3.5%]">
+                <div className="grid grid-cols-12 py-5 lg:py-10 relative">
+                    <Navigation toggle={handleToggle} />
+                    <div className="col-start-1 lg:col-start-2 col-span-12 lg:col-span-10 relative px-[5%] pt-5 lg:pt-10">
                         <Image
                             src={projectImage}
                             alt=""
@@ -80,7 +83,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            {isContactOpen && <Contact isContactOpen={setIsContactOpen} />}
+            {toggle && <Contact toggle={handleToggle} />}
         </div>
     )
 }
